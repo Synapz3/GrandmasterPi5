@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Marcus Lund. See LICENSE.
 """CPU thermal stabiliser for a Raspberry Pi GNSS/PPS NTP + PTP time server.
 
 Goal: keep the board (and the Pi's 54 MHz crystal next to the SoC) at a constant

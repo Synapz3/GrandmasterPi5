@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Marcus Lund. See LICENSE.
 [Unit]
 Description=CPU Thermal Stabilization for NTP (oscillator temperature control)
 After=multi-user.target

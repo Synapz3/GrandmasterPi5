@@ -1,4 +1,6 @@
 #!/bin/bash
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Marcus Lund. See LICENSE.
 # PPS NTP server performance optimization
 # Performance governor, PPS IRQ -> CPU0, chronyd SCHED_FIFO 50 on CPU0, ksoftirqd/0 boosted.
 # The PPS IRQ is looked up by name: its number changes between kernels/boots

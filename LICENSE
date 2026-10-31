@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 Synapz3
+Copyright (c) 2026 Marcus Lund
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,16 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+Scope: this license covers the blog post "A GNSS-disciplined NTP, NTS and PTP
+time server on a Raspberry Pi 5 with Ubuntu 26.04 LTS" and its companion files
+(time_burner.py, time-burner.service, gps-baud-change.sh, gps-baud.service,
+pps-optimize.sh).
+
+It does not cover material from the referenced articles by Austin's Nerdy
+Things (https://austinsnerdythings.com), which remain (c) Austin's Nerdy
+Things. Parts of the PTP grandmaster configuration (ptp-gm.conf layout and the
+ptp4l-grandmaster / phc2sys-grandmaster / ptp_nic_coalesce unit structure) are
+adapted from Austin's PTP tutorial and are credited in the post.

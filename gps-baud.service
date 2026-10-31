@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Marcus Lund. See LICENSE.
 [Unit]
 Description=Set u-blox GNSS receiver baud rate (must match chrony NMEA offset)
 # Run early, before gpsd.socket/sockets.target. Default dependencies would order

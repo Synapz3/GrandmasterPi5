@@ -678,3 +678,19 @@ This guide builds on these three articles. Many thanks to Austin for writing the
 
 Further reading: RFC 8915 (Network Time Security for NTP), the chrony documentation (`chrony.conf(5)`: `refclock`,
 `ntsserverkey`, `ntstrustedcerts`), and the linuxptp man pages (`ptp4l(8)`, `phc2sys(8)`, `pmc(8)`).
+
+---
+
+## License
+
+Text and companion files (`time_burner.py`, `time-burner.service`, `gps-baud-change.sh`, `gps-baud.service`,
+`pps-optimize.sh`) © 2026 Marcus Lund, released under the **MIT License** (see `LICENSE`). You're welcome to
+reuse, adapt and share them, as long as the copyright notice comes along.
+
+This does **not** cover material from the referenced articles, which remain © Austin's Nerdy Things. The PTP
+grandmaster configuration in section 9 (the `ptp-gm.conf` layout and the `ptp4l-grandmaster` /
+`phc2sys-grandmaster` / `ptp_nic_coalesce` units) is adapted from Austin's PTP tutorial, and the overall approach
+builds on his NTP articles. Please credit and link those originals too if you reuse those parts.
+
+The software and instructions are provided "as is", without warranty of any kind. Test changes to a time server
+before relying on it.

@@ -1,4 +1,6 @@
 #!/bin/bash
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Marcus Lund. See LICENSE.
 # gps-baud-change.sh — change the u-blox LEA-M8T serial baud rate safely and
 # re-calibrate chrony's NMEA offset to match (Raspberry Pi 5 + u-blox LEA-M8T).
 #
